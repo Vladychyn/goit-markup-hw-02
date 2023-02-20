@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Raleway ExtraBold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #434455;
+}
+
+.header-navigation {}
+
+.header-link {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+
+.header-list {}
+
+.header-item {}
+
+.header-address {}
+
+.header-mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.header-tel {}
