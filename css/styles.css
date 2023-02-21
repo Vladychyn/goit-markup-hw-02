@@ -14,6 +14,8 @@
     line-height: 24px;
 }
 
+.header-link-title:hover {}
+
 .colortext {
     color: #4D5AE5s;
 }
@@ -94,7 +96,14 @@
 }
 
 .section-about-btn {
-    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
+    color: #4D5AE5;
+}
+
+.btn-text {
     width: 105px;
     height: 24px;
     font-family: 'Roboto';
@@ -265,4 +274,53 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.btn {
+    width: 78px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.text {
+    width: 30px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.btn:hover {
+    color: #404BBF;
+}
+
+.portfolio-subtitle {
+    width: 135px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.portfolio-text {
+    width: 75px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
