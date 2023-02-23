@@ -109,6 +109,11 @@ body {
     cursor: pointer;
 }
 
+.section-about-btn:hover {
+    color: var(--main-font-color);
+    background-color: var(--secondary-font-color);
+}
+
 .btn-text {}
 
 .section-services {}
