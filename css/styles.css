@@ -10,7 +10,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--main-font-color);
@@ -24,10 +23,10 @@ body {
 
 .header-link-title {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
 }
 
 
@@ -59,25 +58,42 @@ body {
     color: var(--accent-color);
 }
 
+.header-link:focus {
+    color: var(--main-font-color);
+}
 
 .header-address {}
 
 .header-mail {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--info-color);
     text-decoration: none;
 }
 
+.header-mail:hover {
+    color: var(--accent-color)
+}
+
+.header-mail:focus {
+    color: var(--main-font-color);
+}
+
 .header-tel {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--info-color);
     text-decoration: none;
+}
+
+.header-tel:hover {
+    color: var(--accent-color);
+}
+
+.header-tel:focus {
+    color: var(--main-font-color);
 }
 
 .link {
@@ -110,8 +126,12 @@ body {
 }
 
 .section-about-btn:hover {
+    color: var(--secondary-font-color);
+    background-color: var(--btn-color);
+}
+
+.section-about-btn:focus {
     color: var(--main-font-color);
-    background-color: var(--secondary-font-color);
 }
 
 .btn-text {}
@@ -147,7 +167,6 @@ body {
 }
 
 .section-services-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -219,6 +238,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .colorslogan {
@@ -239,6 +259,9 @@ body {
 .btn {
     font-family: 'Roboto';
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border: 1px solid var(--footer-text-color);
     border-radius: 4px;
     background: var(--secondary-accent-color);
@@ -261,7 +284,6 @@ body {
 }
 
 .portfolio-subtitle {
-    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--main-font-color);
